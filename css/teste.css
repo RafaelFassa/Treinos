@@ -1,0 +1,61 @@
+.bg-rafael {
+    background-image: url("../img/comp.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#logo {
+    font-size: 7vh;
+}
+
+.bg-botao {
+    transition: 0.3s;
+}
+
+.bg-botao:hover {
+    transition: 0.3s;
+}
+
+.bg-pesquisar {
+    transition: 0.3s;
+}
+
+.bg-pesquisar:overflow {
+    transition: 0.2s;
+}
+
+.bgdrop {
+    transition: 0.3s;
+}
+
+.bg-drop:hover {
+    transition: 0.3s;
+    color: #28a745;
+}
+
+#menu {
+    font-family: Roboto;
+    font-size: 20px;
+    color: white;
+    transition: 0.3s;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#menu:hover {
+    color: rgb(126, 126, 126);
+    transition: 0.3s;
+}
+
+#redes {
+    color: white;
+    align-items: center;
+    transition: 0.3s;
+    font-size: 30px;
+}
+
+#redes:hover {
+    color: rgb(126, 126, 126);
+    transition: 0.3s;
+}

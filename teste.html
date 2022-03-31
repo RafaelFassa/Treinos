@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="teste.css">
+    <link rel="stylesheet" href="css/teste.css">
     <title>Document</title>
 </head>
 
@@ -14,34 +14,85 @@
 
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
-        <a class="navbar-brand"><img class="img-fluid" src="brand.png" alt="" id="img-logo"></a>
-        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-        <div id="my-nav" class="collapse navbar-collapse">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+        <a class="navbar-brand" href="index.html"><i class="fa-brands fa-buy-n-large" id="logo"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" id="menu"><i class="fa-solid fa-house-chimney"></i> Home <span class="sr-only"></span></a>
+                </li>
                 <li class="nav-item">
-                    <a class="menu" href="#">Home<span class="sr-only"></span></a>
+                    <a class="nav-link" href="#" id="menu"><i class="fa-solid fa-envelope"></i> Contato</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="menu" href="#" tabindex="-1" aria-disabled="true">Contato</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="menu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Mais Opções</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item bg-drop" href="#">Perfil</a>
+                        <a class="dropdown-item bg-drop" href="#">Configurações</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item bg-drop" href="#">Sair</a>
+                    </div>
                 </li>
-                <li class="nav-item active">
-                    <a class="menu" href="#">Cursos<span class="sr-only"></span></a>
+                <li class="nav-item">
+                    <a class="nav-link disabled" id="menu" href="#"><i class="fa-brands fa-facebook-square"id="redes"></i></a>
                 </li>
-                <li class="nav-item active">
-                    <a class="menu" href="#"><i class="fa-brands fa-facebook-f" id="facebook"></i></a>
+                <li class="nav-item">
+                    <a class="nav-link disabled" id="menu" href="#"><i class="fa-brands fa-instagram" id="redes"></i></a>
                 </li>
-                <li class="nav-item active">
-                    <a class="menu" href="#"><i class="fa-brands fa-instagram" id="instagram"></i></a>
-                </li>
-
             </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2 bg-pesquisar" type="Pesquisar" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-success my-2 my-sm-0 bg-botao" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
         </div>
     </nav>
 
+    <div class="jumbotron jumbotron-fluid text-center bg-rafael">
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-4 col-md-4">
+                <div class="row">
+                    <h1 class="text-dark"># Noticias</h1>
+                </div>
+                <div class="container-fluid">
+                    <div class="row mt-3">
+                        <div class="col-12 col-sm-4 col-md-4">
+                            <img class="img-fluid" src="img/sem-foto.jpg" alt="">
+                        </div>
+                        <div class="col-12 col-sm-8 col-md-8">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nesciunt similique ea consequuntur, sed laborum quisquam quia error eveniet a in aliquid dolorem fugiat laudantium doloribus saepe incidunt, adipisci tempore?
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row mt-3">
+                        <div class="col-12 col-sm-4 col-md-4">
+                            <img class="img-fluid" src="img/sem-foto.jpg" alt="">
+                        </div>
+                        <div class="col-12 col-sm-8 col-md-8">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nesciunt similique ea consequuntur, sed laborum quisquam quia error eveniet a in aliquid dolorem fugiat laudantium doloribus saepe incidunt, adipisci tempore?
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row mt-3">
+                        <div class="col-12 col-sm-4 col-md-4">
+                            <img class="img-fluid" src="img/sem-foto.jpg" alt="">
+                        </div>
+                        <div class="col-12 col-sm-8 col-md-8">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nesciunt similique ea consequuntur, sed laborum quisquam quia error eveniet a in aliquid dolorem fugiat laudantium doloribus saepe incidunt, adipisci tempore?
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.js"></script>
